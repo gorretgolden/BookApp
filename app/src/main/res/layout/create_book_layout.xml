@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".CreateBookActivity"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/create_new_book"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/bktitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textColor="@android:color/holo_green_light"
+        android:hint="@string/bkname"
+        android:inputType="text"
+
+        />
+    <EditText
+        android:id="@+id/bkauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/bkauthor"
+
+        />
+
+    <EditText
+        android:id="@+id/bkpages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/bkpgs"
+
+        />
+    <Button
+        android:id="@+id/createbook"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:text="@string/create"
+        android:textColor="@android:color/white"
+
+        />
+
+
+
+</LinearLayout>

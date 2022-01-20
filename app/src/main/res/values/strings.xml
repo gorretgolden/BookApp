@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BookLibraryApp</string>
+    <string name="fabBook">Add book</string>
+    <string name="todo">TODO</string>
+    <string name="bkname">Enter book name</string>
+    <string name="bkauthor">Enter book author</string>
+    <string name="bkpgs">Enter book pages</string>
+    <string name="create">Create</string>
+    <string name="createtitle">Create New Book</string>
+    <string name="create_new_book">Create New Book</string>
+</resources>
