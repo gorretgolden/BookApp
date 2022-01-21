@@ -20,7 +20,13 @@
             </intent-filter>
         </activity>/>
         <activity android:name=".CreateBookActivity"/>
-
+        <activity android:name=".BookListActivity" android:label="Books"/>
+        <activity android:name=".BookDetails"/>
+        <activity android:name=".BookOneActivity"/>
+        <activity android:name=".BookTwoActivtity"/>
+        <activity android:name=".BookThreeActivity"/>
+        <activity android:name=".BookFiveActivity"/>
+        <activity android:name=".BookFourActivity"/>
     </application>
 
 </manifest>

@@ -5,18 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15dp"
     tools:context=".CreateBookActivity"
     >
 
     <TextView
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:gravity="center"
         android:text="@string/create_new_book"
-        android:layout_marginTop="20dp"
-        android:textColor="@android:color/holo_green_light"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
         android:textAppearance="?android:textAppearanceLarge"
         />
 
@@ -24,10 +23,15 @@
         android:id="@+id/bktitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textColorHint="@android:color/holo_green_light"
-        android:textColor="@android:color/holo_green_light"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
         android:hint="@string/bkname"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/borders"
+        android:padding="10dp"
         android:inputType="text"
 
         />
@@ -37,9 +41,13 @@
         android:layout_height="wrap_content"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:textColorHint="@android:color/holo_green_light"
-        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
         android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/borders"
         android:hint="@string/bkauthor"
 
         />
@@ -50,20 +58,50 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:layout_marginTop="20dp"
-        android:textColorHint="@android:color/holo_green_light"
-        android:textColor="@android:color/holo_green_light"
+        android:background="@drawable/borders"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
         android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:hint="@string/bkpgs"
 
         />
     <Button
         android:id="@+id/createbook"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@android:color/holo_green_light"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:text="@string/create"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Button
+        android:id="@+id/viewbook"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="@string/view_books"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Button
+        android:id="@+id/viewbook2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="@string/view_new_books"
         android:textColor="@android:color/white"
 
         />

@@ -17,7 +17,7 @@ public class CreateBookActivity extends Activity {
 
 
     EditText book_title, book_author, book_pages;
-    Button addBook;
+    Button addBook, viewBook,viewNewBooks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,8 @@ public class CreateBookActivity extends Activity {
         book_author = (EditText) findViewById(R.id.bkauthor);
         book_pages = (EditText) findViewById(R.id.bkpages);
         addBook = (Button) findViewById(R.id.createbook);
-
-
+        viewBook = (Button) findViewById(R.id.viewbook);
+        viewNewBooks = (Button) findViewById(R.id.viewbook2);
         addBook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,6 +39,18 @@ public class CreateBookActivity extends Activity {
                 myDB.addBook(book_title.getText().toString().trim(),book_author.getText().toString().trim(),Integer.parseInt(book_pages.getText().toString().trim()));
 
             }
+        });
+        viewBook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent intentView = new Intent(getApplicationContext(), BookListActivity.class);
+        startActivity(intentView);}
+        });
+        viewNewBooks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentView1= new Intent(getApplicationContext(), BookDetails.class );
+                startActivity(intentView1);}
         });
     }
 }

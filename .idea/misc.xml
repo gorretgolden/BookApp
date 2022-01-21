@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/drawable/borders.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/drawable/roudedcorners.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/layout/activity_main.xml" value="0.14457831325301204" />
         <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/layout/add_book_layout.xml" value="0.17647058823529413" />
+        <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/layout/book1_details.xml" value="0.25384615384615383" />
+        <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/layout/book5_layout.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/golden/AndroidStudioProjects/BookLibraryApp/app/src/main/res/layout/listview_components_layoyt.xml" value="0.2815884476534296" />
       </map>
     </option>
   </component>
